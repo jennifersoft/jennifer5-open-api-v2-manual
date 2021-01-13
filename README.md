@@ -1,4 +1,4 @@
-새로 추가하는 Open API에 대해서 간이 형태로 작성하고 있는 문서입니다. 기존 API는 다음 사이트를 참고하시기 바랍니다.
+새로 추가하는 Open API에 대해서 간이로 작성하고 있는 문서입니다. 기존 API는 다음 사이트를 참고하시기 바랍니다.
 
 https://jennifersoft.github.io/jennifer-developer-guide/#/
 
