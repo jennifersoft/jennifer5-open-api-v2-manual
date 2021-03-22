@@ -21,7 +21,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
     - Method : PUT
     - Content-Type: application/json
     - Content : 설정값. true 또는 false
-    - 요청 예제 (OFF로 변경하기)
+    - 요청 예제 (Off로 변경하기)
         - `> curl --request PUT https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002/AGENT_STOP/applied -H "Authorization: Bearer ABCD1234" -H "Content-Type: application/json" -d "false"`
 
 ### API 명세 - ERROR EVENT 대상별 설정
