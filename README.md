@@ -9,20 +9,9 @@ https://jennifersoft.github.io/jennifer-developer-guide
 
 `Authorization: Bearer <인증토큰>`
 
-### API 명세 - ERROR EVENT 룰 적용 On/Off 여부 (5.5.3.3 이상)
-화면의 [관리 > 룰 > EVENT룰 > ERROR EVENT > ERROR유형 > 룰 적용] On/Off여부를 API로 제어합니다.
-- Path 형식: `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/error/<도메인아이디>/<ERROR유형>/applied`
-- 조회
-    - Method : GET
-    - 요청 예제 (7002 도메인의 AGENT_STOP ERROR EVENT의 룰 적용 여부 조회하기)
-        - `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002/AGENT_STOP/applied -H "Authorization: Bearer ABCD1234"`
-    - 응답: true 또는 false
-- 저장
-    - Method : PUT
-    - Content-Type: application/json
-    - Content : 설정값. true 또는 false
-    - 요청 예제 (Off로 변경하기)
-        - `> curl --request PUT https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002/AGENT_STOP/applied -H "Authorization: Bearer ABCD1234" -H "Content-Type: application/json" -d "false"`
+### API 명세
+- [EVENT 룰 설정 조회](spec/manage-rule-event.md)
+- [ERROR EVENT 룰 적용 On/Off 여부 제어](spec/manage-rule-event-error-applied.md)
 
 ### API 명세 - ERROR EVENT 대상별 설정
 화면의 [관리 > 룰 > EVENT룰 > ERROR EVENT > ERROR유형 > 대상별 설정] 기능을 API로 제어합니다. 화면으로 사용성을 충분히 이해한 후에 사용하시기 바랍니다.
@@ -44,10 +33,6 @@ https://jennifersoft.github.io/jennifer-developer-guide
     - 요청 예제
         - `> curl --request DELETE https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002/AGENT_STOP/individual-setting/10001 -H "Authorization: Bearer ABCD1234"`
     - 응답 데이터: 없음
-
-### API 명세
-- [EVENT 룰 설정 조회](spec/manage-rule-event.md)
-
     
 ### 공통 HTTP 응답 코드
 
