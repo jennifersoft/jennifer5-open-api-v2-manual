@@ -12,7 +12,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
 ### API 명세
 
 - [EVENT 룰 설정 조회](spec/manage-rule-event.md)
-- [ERROR EVENT 룰 적용 On/Off 여부 제어](spec/manage-rule-event-error-applied.md)
+- [ERROR EVENT 룰 적용 On/Off 제어](spec/manage-rule-event-error-applied.md)
 - [ERROR EVENT 대상별 설정 제어](spec/manage-rule-event-error-individual.md)
     
 ### 공통 HTTP 응답 코드
