@@ -10,3 +10,20 @@
 `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/error/<도메인아이디>`
 #### 요청 예제
 `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
+
+#### 응답 예제
+```json
+[
+  {
+    "errorType":"SERVICE_EXCEPTION",
+    "applied":true,
+    "level":"WARNING",
+    "iconRecoveryTime":60000,
+    "checkTimeRange":60000,
+    "thresholdErrorCount":1,
+    "customMessage":"",
+    "autoScriptCommand":null
+  }
+  ...
+]
+````
