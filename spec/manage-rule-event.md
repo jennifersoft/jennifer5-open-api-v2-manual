@@ -24,7 +24,7 @@
 
 ### Metric EVENT 설정 조회하기
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/metric/<도메인아이디>/<대상타입>`
-- `<대상타입>` : `domain`, `instance`, `business` 중 하나.
+  - `<대상타입>` : `domain`, `instance`, `business` 중 하나.
 - 요청 예제 : `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/metric/7002 -H "Authorization: Bearer ABCD1234"`
 - 응답 예제 : 
 ```
