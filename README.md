@@ -10,29 +10,10 @@ https://jennifersoft.github.io/jennifer-developer-guide
 `Authorization: Bearer <인증토큰>`
 
 ### API 명세
+
 - [EVENT 룰 설정 조회](spec/manage-rule-event.md)
 - [ERROR EVENT 룰 적용 On/Off 여부 제어](spec/manage-rule-event-error-applied.md)
-
-### API 명세 - ERROR EVENT 대상별 설정
-화면의 [관리 > 룰 > EVENT룰 > ERROR EVENT > ERROR유형 > 대상별 설정] 기능을 API로 제어합니다. 화면으로 사용성을 충분히 이해한 후에 사용하시기 바랍니다.
-- Path 형식: `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/error/<도메인아이디>/<ERROR유형>/individual-setting/<인스턴스아이디>`
-- 개별 설정 값 저장
-    - Method : PUT
-    - Content-Type: application/json
-    - Content : 설정값. true 또는 false
-    - 요청 예제 (7002 도메인 10001 인스턴스의 AGENT_STOP EVENT가 발생하지 않도록 설정하기)
-        - `> curl --request PUT https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002/AGENT_STOP/individual-setting/10001 -H "Authorization: Bearer ABCD1234" -H "Content-Type: application/json" -d "false"`
-    - 응답 데이터: 없음
-- 개별 설정 값 조회
-    - Method : GET
-    - 요청 예제
-        - `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002/AGENT_STOP/individual-setting/10001 -H "Authorization: Bearer ABCD1234"`
-    - 응답: 설정 값이 있으면 true 또는 false, 없으면 404.
-- 개별 설정 값 제거
-    - Method : DELETE
-    - 요청 예제
-        - `> curl --request DELETE https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002/AGENT_STOP/individual-setting/10001 -H "Authorization: Bearer ABCD1234"`
-    - 응답 데이터: 없음
+- [ERROR EVENT 대상별 설정 제어](spec/manage-rule-event-error-individual.md)
     
 ### 공통 HTTP 응답 코드
 
@@ -42,5 +23,3 @@ https://jennifersoft.github.io/jennifer-developer-guide
 - 405 Method Not Allowed : 유효하지 않은 메소드로 요청했습니다 (예: POST). API의 명세를 보고 지원하는 메소드인지 확인합니다.
 - 500~599 : 서버에서 문제가 발생했습니다. 응답의 메시지와 뷰서버의 로그를 확인합니다. 문제 해결이 안 될 경우 지원을 요청합니다.
 - 200 : 처리됨을 의미합니다. API명세 상 특별한 언급이 없으면 이 응답으로 내려갑니다.
-
-
