@@ -46,7 +46,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
     - 응답 데이터: 없음
 
 ### API 명세
-- [ERROR EVENT 룰 설정 조회](spec/manage-rule-event.md)
+- [EVENT 룰 설정 조회](spec/manage-rule-event.md)
 
     
 ### 공통 HTTP 응답 코드
