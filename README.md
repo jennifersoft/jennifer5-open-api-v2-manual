@@ -17,7 +17,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
     - 요청 예제
         - `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
     - 응답
-        - `TODO<br/>TODO`
+        - `TODO<br />TODO`
 
 ### API 명세 - ERROR EVENT 룰 적용 On/Off 여부 (5.5.3.3 이상)
 화면의 [관리 > 룰 > EVENT룰 > ERROR EVENT > ERROR유형 > 룰 적용] On/Off여부를 API로 제어합니다.
