@@ -1,4 +1,4 @@
-# API 명세 - ERROR EVENT 대상별 설정
+# API 명세 - ERROR EVENT 대상별 설정 
 화면의 [관리 > 룰 > EVENT룰 > ERROR EVENT > ERROR유형 > 대상별 설정] 기능을 API로 제어합니다. 화면으로 사용성을 충분히 이해한 후에 사용하시기 바랍니다. Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
 #### Path 형식
