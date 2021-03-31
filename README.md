@@ -9,11 +9,6 @@ https://jennifersoft.github.io/jennifer-developer-guide
 
 `Authorization: Bearer <인증토큰>`
 
-<details>
-<summary>
-API 명세 - ERROR EVENT 룰 적용 On/Off 여부 (5.5.3.3 이상)
-</symmary>   
-
 ### API 명세 - ERROR EVENT 룰 적용 On/Off 여부 (5.5.3.3 이상)
 화면의 [관리 > 룰 > EVENT룰 > ERROR EVENT > ERROR유형 > 룰 적용] On/Off여부를 API로 제어합니다.
 - Path 형식: `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/error/<도메인아이디>/<ERROR유형>/applied`
@@ -28,8 +23,6 @@ API 명세 - ERROR EVENT 룰 적용 On/Off 여부 (5.5.3.3 이상)
     - Content : 설정값. true 또는 false
     - 요청 예제 (Off로 변경하기)
         - `> curl --request PUT https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002/AGENT_STOP/applied -H "Authorization: Bearer ABCD1234" -H "Content-Type: application/json" -d "false"`
-
-</details>
 
 ### API 명세 - ERROR EVENT 대상별 설정
 화면의 [관리 > 룰 > EVENT룰 > ERROR EVENT > ERROR유형 > 대상별 설정] 기능을 API로 제어합니다. 화면으로 사용성을 충분히 이해한 후에 사용하시기 바랍니다.
