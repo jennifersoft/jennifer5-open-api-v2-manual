@@ -12,7 +12,7 @@
 `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
 
 #### 응답 예제
-```json
+```
 [
   {
     "errorType":"SERVICE_EXCEPTION",
