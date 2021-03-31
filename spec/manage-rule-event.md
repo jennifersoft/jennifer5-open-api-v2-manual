@@ -4,7 +4,7 @@
 
 우선 기본적인 API 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
-#### ERROR EVENT 설정 조회하기
+### ERROR EVENT 설정 조회하기
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/error/<도메인아이디>`
 - 요청 예제 : `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
 - 응답 예제
