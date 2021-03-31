@@ -6,6 +6,5 @@
 
 #### Path 형식
 `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/error/<도메인아이디>`
-#### 요청하기
-- Method : GET
-- 예제: `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
+#### 요청 예제
+`> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
