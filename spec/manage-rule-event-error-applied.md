@@ -17,6 +17,7 @@
 - Content : 설정값. true 또는 false
 - 요청 예제 (Off로 변경하기)
   - `> curl --request PUT https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002/AGENT_STOP/applied -H "Authorization: Bearer ABCD1234" -H "Content-Type: application/json" -d "false"`
+- 응답 : 없음
 
 
 
