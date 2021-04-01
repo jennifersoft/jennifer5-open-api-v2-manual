@@ -11,7 +11,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
 
 ### 가장 간단한 API - 인증 테스트하기
 
-다음 URL로 HTTP요청을 하면 인증이 잘 되는지 확인할 수 있습니다. API 사용이 처음이라면, 먼저 이 API를 이용해서 인증까지 확인하는 것을 권장합니다.
+다음 URL로 HTTP를 요청하면 인증이 잘 되는지 확인할 수 있습니다. API 사용이 처음이라면, 먼저 이 API를 이용해서 인증까지 확인하는 것을 권장합니다.
 
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/auth-test`
 - 요청 예제 : `> curl --request GET https://java.jennifersoft.com/api-v2/auth-test -H "Authorization: Bearer ABCD1234"`
