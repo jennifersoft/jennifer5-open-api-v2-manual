@@ -16,7 +16,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/auth-test`
 - 요청 예제 : `> curl --request GET https://java.jennifersoft.com/api-v2/auth-test -H "Authorization: Bearer ABCD1234"`
 
-응답으로 `OK`를 확인하면 인증이 제대로 된 것입니다. 문제가 있는 경우 아래의 공통 응답 코드와 메시지를 확인합니다.
+응답으로 `OK`를 확인하면 인증이 제대로 된 것입니다. 문제가 있는 경우 아래의 [공통 HTTP 응답 코드](#공통-HTTP-응답-코드)와 메시지를 확인합니다.
 
 ### API 명세
 
