@@ -9,6 +9,15 @@ https://jennifersoft.github.io/jennifer-developer-guide
 
 `Authorization: Bearer <인증토큰>`
 
+### 가장 간단한 API - 인증 테스트하기
+
+다음 URL로 HTTP요청을 하면 인증이 잘 되는지 확인할 수 있습니다. API 사용이 처음이라면, 먼저 이 API를 이용해서 인증까지 확인하는 것을 권장합니다.
+
+- Path 형식 : `http(s)://<호스트>:<포트>/api-v2/auth-test`
+- 요청 예제 : `> curl --request GET https://java.jennifersoft.com/api-v2/auth-test -H "Authorization: Bearer ABCD1234"`
+
+응답으로 `OK`를 확인하면 인증이 제대로 된 것입니다. 문제가 있는 경우 [응답코드](#공통-HTTP-응답-코드)와 메시지를 확인합니다.
+
 ### API 명세
 
 - [EVENT 룰 설정 조회](spec/manage-rule-event.md)
