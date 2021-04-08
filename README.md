@@ -16,9 +16,10 @@ https://jennifersoft.github.io/jennifer-developer-guide
 다음 URL로 HTTP를 요청하면 인증이 잘 되는지 확인할 수 있습니다. Open API 사용이 처음이면, 먼저 이 API를 이용해서 인증까지 확인하는 것을 권장합니다.
 
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/auth-test`
-- 요청 예제 (인증토큰이 ABCD1234일 때)
+- 요청 예제 
     - curl : `> curl --request GET https://java.jennifersoft.com/api-v2/auth-test -H "Authorization: Bearer ABCD1234"`
     - 브라우저 : `https://java.jennifersoft.com/api-v2/auth-test?token=ABCD1234` (GET만 가능)
+    - 인증토큰이 ABCD1234일 때의 예입니다. 브라우저 방식은 토큰이 브라우저 기록에 남을 가능성이 있습니다. 주의하시기 바랍니다.
 
 응답으로 `OK`를 확인하면 인증이 제대로 된 것입니다. 문제가 있으면 아래의 [공통 HTTP 응답 코드 설명](#공통-HTTP-응답-코드)과 메시지를 확인합니다.
 
