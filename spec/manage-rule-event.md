@@ -5,6 +5,7 @@
 Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
 ### ERROR EVENT 설정 조회하기
+- Method : GET
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/error/<도메인아이디>`
 - 요청 예제 : `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
 - 응답 예제
@@ -25,6 +26,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
 ````
 
 ### Metric EVENT 설정 조회하기
+- Method : GET
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/metric/<도메인아이디>/<대상타입>`
   - `<대상타입>` : `domain`, `instance`, `business` 중 하나.
 - 요청 예제 : `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/metric/7002 -H "Authorization: Bearer ABCD1234"`
@@ -47,6 +49,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
 ```
 
 ### 비교 EVENT 설정 조회하기
+- Method : GET
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/compare/<도메인아이디>/<대상타입>`
   - `<대상타입>` : `domain`, `instance` 중 하나.
 - 요청 예제 : `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/comparing/1006/instance -H "Authorization: Bearer ABCD1234"`
