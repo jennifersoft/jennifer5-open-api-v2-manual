@@ -7,7 +7,8 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
 ### ERROR EVENT 설정 조회하기
 - Method : GET
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/manage/rule/event/error/<도메인아이디>`
-- 요청 예제 : `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
+- 요청 예제
+  `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
 - 응답 예제
 ```
 [
