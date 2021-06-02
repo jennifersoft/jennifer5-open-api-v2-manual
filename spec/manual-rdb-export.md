@@ -9,7 +9,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
 - Method : POST
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/manual-rdb-export?date=<YYYY-MM-DD>`
 - 요청 예제
-  - curl : `> curl --request GET "https://java.jennifersoft.com/api-v2/manual-rdb-export?date=2021-05-29" -H "Authorization: Bearer ABCD1234"`
+  - curl : `> curl --request POST "https://java.jennifersoft.com/api-v2/manual-rdb-export?date=2021-05-29" -H "Authorization: Bearer ABCD1234"`
 - 응답 예제
 ```
 OK
