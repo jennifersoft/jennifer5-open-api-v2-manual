@@ -1,7 +1,7 @@
 ## Open API 명세 - 수동 RDB Export 작업 (릴리즈 버전 미정)
 
-지난 날짜의 데이터를 내보내는 작업에 대한 API입니다. RDB Export 기능은 제니퍼5 엔지니어 문서를 참고하여 숙지하시기 바랍니다.
-날짜를 제외한 다른 설정은 conf파일에 명시하는 RDB Export설정을 그대로 따릅니다. 
+지난 날짜의 데이터를 RDB Export하는 API입니다. RDB Export 기능은 제니퍼5 엔지니어 문서를 참고하여 숙지하시기 바랍니다.
+API파라메터인 날짜를 제외한 다른 설정은 conf파일에 명시하는 RDB Export설정을 그대로 따릅니다. 
 
 Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
