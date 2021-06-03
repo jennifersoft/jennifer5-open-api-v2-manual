@@ -12,7 +12,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
   - curl : `> curl --request POST "https://java.jennifersoft.com/api-v2/manual-rdb-export?date=2021-05-29" -H "Authorization: Bearer ABCD1234"`
 - 응답 예제
 ```
-OK
+OK. id=311d6aaa
 ```
 
 ### 진행 상태 조회하기
