@@ -11,6 +11,8 @@ https://jennifersoft.github.io/jennifer-developer-guide
 
 `Authorization: Bearer <인증토큰>`
 
+일부 조회API는 브라우저에서 간편하게 호출 할 수 있습니다. 아래 예제를 참고합니다.
+
 ### 가장 간단한 API - 인증 테스트하기
 
 다음 URL로 HTTP를 요청하면 인증이 잘 되는지 확인할 수 있습니다. Open API 사용이 처음이면, 먼저 이 API를 이용해서 인증까지 확인하는 것을 권장합니다.
