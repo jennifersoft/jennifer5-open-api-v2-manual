@@ -11,7 +11,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
 
 `Authorization: Bearer <인증토큰>`
 
-일부 조회API는 브라우저에서 간편하게 호출 할 수 있습니다. 아래 예제를 참고합니다.
+일부 조회API는 브라우저에서 간편하게 호출할 수 있습니다. 아래 예제를 참고합니다.
 
 ### 가장 간단한 API - 인증 테스트하기
 
