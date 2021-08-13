@@ -5,7 +5,7 @@
 Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
 - Method : GET
-- Path 형식 : `http(s)://<호스트>:<포트>/api-v2/deploy/<도메인ID>?startTime=<조회범위시작시간>&endTime=<조회범위시작시간>`
+- Path 형식 : `http(s)://<호스트>:<포트>/api-v2/deploy/<도메인ID>?startTime=<조회범위시작시간>&endTime=<끝시간>`
 - 조회범위는 ms단위이고, 25시간(endTime-startTime) 이하만 지원합니다.
 - 요청 예제
   - curl : `> curl --request GET "https://java.jennifersoft.com/api-v2/deploy?startTime=1628757635000&endTime=1628758635000" -H "Authorization: Bearer ABCD1234"`
