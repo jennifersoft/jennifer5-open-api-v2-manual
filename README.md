@@ -32,7 +32,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
     - [ERROR EVENT 룰 적용 On/Off 제어](spec/manage-rule-event-error-applied.md)
     - [ERROR EVENT 대상별 설정 제어](spec/manage-rule-event-error-individual.md)
 - [수동 RDB Export](spec/manual-rdb-export.md)
-- [소스코드(리소스)변경이력 조회하기](spec/deploy.md)
+- [소스코드(리소스)변경이력 조회](spec/deploy.md)
     
 ### 공통 HTTP 응답 코드
 
