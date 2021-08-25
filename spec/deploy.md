@@ -17,4 +17,4 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
   { "collectTime": 1628757910322, "instanceId": 20003 }
 ]
 ```
-응답 중 `collectTime`은 데이터서버 기준으로 배포완료를 인지한 시간입니다.
+응답 중 `collectTime`은 제니퍼5 데이터서버 기준으로 배포완료를 인지한 시간입니다.
