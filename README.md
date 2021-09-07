@@ -28,7 +28,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
 ### API 명세
 
 - 관리
-    - [JENNIFER DB 경로 조회하기](spec/db-path.md)
+    - [JENNIFER DB 경로 조회](spec/db-path.md)
     - EVENT 룰
         - [EVENT 룰 설정 조회](spec/manage-rule-event.md)
         - [ERROR EVENT 룰 적용 On/Off 제어](spec/manage-rule-event-error-applied.md)
