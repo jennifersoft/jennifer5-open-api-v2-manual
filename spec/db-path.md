@@ -12,6 +12,6 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
 ```
 {
   "main": "/home/jennifer/jennifer5/db/data",
-  "backup":"/home/jennifer/jennifer5/db/data"
+  "backup": "/home/jennifer/jennifer5/db/data"
 }
 ```
