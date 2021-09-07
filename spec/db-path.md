@@ -1,6 +1,7 @@
 ## Open API 명세 - JENNIFER DB 경로 조회하기 (지원 버전 미정)
 
 화면 [설정 > JENNIFER DB > 보관 설정 > 경로] 데이터를 조회합니다.
+
 Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
 - Method : GET
