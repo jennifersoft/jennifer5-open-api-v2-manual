@@ -1,4 +1,4 @@
-## Open API 명세 - JENNIFER DB 경로 조회하기 (지원 버전 미정)
+## Open API 명세 - JENNIFER DB 경로 조회하기 (5.6.0.6 이상)
 
 화면 [설정 > JENNIFER DB > 보관 설정 > 경로] 데이터를 조회합니다.
 
