@@ -21,7 +21,7 @@ OK. id=311d6aaa
 - Path 형식 : `http(s)://<호스트>:<포트>/api-v2/manual-rdb-export`
 - 요청 예제
   - curl : `> curl --request GET "https://java.jennifersoft.com/api-v2/manual-rdb-export" -H "Authorization: Bearer ABCD1234"`
-  - 브라우저 : `https://java.jennifersoft.com/api-v2/manual-rdb-export`
+  - 브라우저 : `https://java.jennifersoft.com/api-v2/manual-rdb-export?token=ABCD1234`
 - 응답 예제 : 
 ```
 [
