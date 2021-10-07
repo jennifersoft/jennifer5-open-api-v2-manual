@@ -35,6 +35,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
         - [ERROR EVENT 대상별 설정 제어](spec/manage-rule-event-error-individual.md)
 - [수동 RDB Export](spec/manual-rdb-export.md)
 - [소스코드(리소스) 변경이력 조회](spec/deploy.md)
+- [로디드 클래스 조회하기](spec/loaded-class.md)
     
 ### 공통 HTTP 응답 코드
 
