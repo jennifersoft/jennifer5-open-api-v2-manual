@@ -5,7 +5,7 @@
 Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
 - Method : GET
-- Path 형식 : `http(s)://<호스트>:<포트>/api-v2/loaded-class/<도메인ID>/<인스턴스ID>`
+- URL 형식 : `http(s)://<호스트>:<포트>/api-v2/loaded-class/<도메인ID>/<인스턴스ID>?search=<클래스이름의일부>`
 - 요청 예제
   - curl : `> curl --request GET "https://java.jennifersoft.com/api-v2/loaded-class/1000/20001" -H "Authorization: Bearer ABCD1234"`
   - 브라우저 : `https://java.jennifersoft.com/api-v2/loaded-class/1000/20001?token=ABCD1234`
@@ -25,4 +25,6 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
   ...
 ]
 ```
-- 주의 : 로드된 클래스가 6만개 이하인 경우에만 조회할 수 있습니다.
+- 제약
+  - 로드된 클래스가 6만개 이하인 경우에만 조회할 수 있습니다.
+  - 검색은 클래스이름 검색만 지원합니다.
