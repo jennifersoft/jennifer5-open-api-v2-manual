@@ -5,7 +5,7 @@
 Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
 - Method : GET
-- URL 형식 : `http(s)://<호스트>:<포트>/api-v2/loaded-class/<도메인ID>/<인스턴스ID>?search=<클래스이름의일부>`
+- URL 형식 : `http(s)://<호스트>:<포트>/api-v2/loaded-class/<도메인ID>/<인스턴스ID>?search=<클래스이름의일부(optional)>`
 - 요청 예제
   - curl : `> curl --request GET "https://java.jennifersoft.com/api-v2/loaded-class/1000/20001?search=jennifersoft" -H "Authorization: Bearer ABCD1234"`
   - 브라우저 : `https://java.jennifersoft.com/api-v2/loaded-class/1000/20001?search=jennifersoft&token=ABCD1234`
