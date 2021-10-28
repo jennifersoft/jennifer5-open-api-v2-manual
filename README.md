@@ -36,6 +36,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
 - [수동 RDB Export](spec/manual-rdb-export.md)
 - [소스코드(리소스) 변경이력 조회](spec/deploy.md)
 - [로디드 클래스 조회하기](spec/loaded-class.md)
+- [시스템 환경변수 조회하기](spec/environment-variable.md)
     
 ### 공통 HTTP 응답 코드
 
