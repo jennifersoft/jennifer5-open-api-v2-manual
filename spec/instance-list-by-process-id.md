@@ -1,9 +1,11 @@
 ## Open API 명세 - 프로세스ID로 인스턴스 찾기 (릴리즈 미정)
 
+프로세스ID와 호스트네임으로 인스턴스를 찾습니다.
+
 Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
 - Method : GET
-- URL 형식 : `http(s)://<호스트>:<포트>/api-v2/manage/instance?processId=<프로세스ID>&hostname=<호스트네임>
+- URL 형식 : `http(s)://<호스트>:<포트>/api-v2/manage/instance?processId=<프로세스ID>&hostname=<호스트네임>`
 - 요청 예제
   - curl : `> curl --request GET "https://java.jennifersoft.com/api-v2/manage/instance?processId=1234&hostname=myhost" -H "Authorization: Bearer ABCD1234"`
   - 브라우저 : `https://java.jennifersoft.com/api-v2/manage/instance?processId=1234&hostname=myhost&token=ABCD1234`
