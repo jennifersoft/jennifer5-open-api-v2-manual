@@ -10,7 +10,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
   - curl : `> curl --request GET "https://java.jennifersoft.com/api-v2/manage/instance?processId=1234&hostname=myhost" -H "Authorization: Bearer ABCD1234"`
   - 브라우저 : `https://java.jennifersoft.com/api-v2/manage/instance?processId=1234&hostname=myhost&token=ABCD1234`
 * 응답 예제 : 
-  ```
+  ```json
   {
     "1000": {
       "20000": {"hostname":"myhost", "processId":"1234"}
