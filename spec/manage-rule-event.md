@@ -23,6 +23,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
     "customMessage" : "hello world",
     "autoScriptCommand" : "/etc/handle_event.sh"
   }
+  ...
 ]
 ````
 
