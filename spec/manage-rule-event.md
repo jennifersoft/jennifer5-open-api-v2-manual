@@ -11,7 +11,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
   - curl : `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002 -H "Authorization: Bearer ABCD1234"`
   - 브라우저 : `https://java.jennifersoft.com/api-v2/manage/rule/event/error/7002?token=ABCD1234`
 - 응답 예제
-```json
+```
 [
   {
     "errorType" : "SERVICE_EXCEPTION",
@@ -23,7 +23,6 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
     "customMessage" : "hello world",
     "autoScriptCommand" : "/etc/handle_event.sh"
   }
-  ...
 ]
 ````
 
@@ -35,7 +34,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
   - curl : `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/metric/7002 -H "Authorization: Bearer ABCD1234"`
   - 브라우저 : `https://java.jennifersoft.com/api-v2/manage/rule/event/metric/7002?token=ABCD1234`
 - 응답 예제 : 
-```json
+```
 [
   {
     "metricId" : "heap_usage",
@@ -60,7 +59,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
   - curl : `> curl --request GET https://java.jennifersoft.com/api-v2/manage/rule/event/comparing/1006/instance -H "Authorization: Bearer ABCD1234"`
   - 브라우저 : `https://java.jennifersoft.com/api-v2/manage/rule/event/comparing/1006/instance?token=ABCD1234`
 - 응답 예제 : 
-```json
+```
 [
   {
     "metricId" : "service_rate",
