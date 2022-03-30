@@ -13,7 +13,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
   ```json
   {
     "1000": {
-      "20000": {"hostname":"myhost", "processId":"1234"}
+      "20000": { "hostname":"myhost" }
     }
   }
   ```
