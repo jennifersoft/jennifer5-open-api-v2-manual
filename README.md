@@ -28,6 +28,8 @@ https://jennifersoft.github.io/jennifer-developer-guide
 ### API 명세
 
 - 관리
+    - 인스턴스
+        - [호스트네임과 프로세스ID로 인스턴스 찾기](spec/instance-list-by-process-id.md)
     - [JENNIFER DB 경로 조회](spec/db-path.md)
     - EVENT 룰
         - [EVENT 룰 설정 조회](spec/manage-rule-event.md)
