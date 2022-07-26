@@ -30,6 +30,7 @@ https://jennifersoft.github.io/jennifer-developer-guide
 - 관리
     - 인스턴스
         - [호스트네임과 프로세스ID로 인스턴스 찾기](spec/instance-list-by-process-id.md)
+        - [액티브 서비스 상세 조회하기](spec/active-service-detail.md)
     - [JENNIFER DB 경로 조회](spec/db-path.md)
     - EVENT 룰
         - [EVENT 룰 설정 조회](spec/manage-rule-event.md)
