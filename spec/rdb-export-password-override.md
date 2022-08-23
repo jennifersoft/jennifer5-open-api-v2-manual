@@ -17,7 +17,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
   ```json
   "Password: XYZ1234"
   ```
-  * 조회 
+  * 설정된 값을 응답으로 줍니다. 보안을 위해 별도의 조회 API는 제공하지 않습니다.
 
 ### 암호 삭제하기
 - Method : DELETE
