@@ -12,7 +12,7 @@ Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md
 - URL : `http(s)://<호스트>:<포트>/api-v2/configuration/rdb-export-password-override`
 - Content-Type: text/plain
 - 요청 예제
-  - curl : `> curl --request PUT "https://java.jennifersoft.com/api-v2/configuration/rdb-export-password-override" -H "Authorization: Bearer ABCD1234" -d "XYZ1234"`
+  - curl : `> curl --request PUT "https://java.jennifersoft.com/api-v2/configuration/rdb-export-password-override" -H "Content-type: text/plain" -H "Authorization: Bearer ABCD1234" -d "XYZ1234"`
 * 응답 예제 : 
   ```json
   "Password: XYZ1234"
