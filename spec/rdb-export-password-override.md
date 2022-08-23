@@ -2,7 +2,7 @@
 
 RDB Export 대상 DB의 접속 암호를 설정합니다. RDB Export 기능은 제니퍼5 엔지니어 문서를 참고하여 숙지하시기 바랍니다.
 
-이 API는 뷰서버 conf 파일에 지정하는 `rdb_export_jdbc_password` 옵션의 대안입니다. 이 API를 이용하면 옵션과 다르게 암호를 파일에 노출시키지 않을 수 있습니다. conf파일의 옵션으로도 암호가 설정된 경우 이 API로 설정한 값을 사용합니다.
+이 API는 뷰서버 conf 파일에 지정하는 `rdb_export_jdbc_password` 옵션의 대안입니다. 이 API를 이용하면 옵션과 다르게 암호를 파일에 노출시키지 않을 수 있습니다. conf 파일의 옵션으로도 암호가 설정된 경우 이 API로 설정한 값을 사용합니다.
 
 Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
 
