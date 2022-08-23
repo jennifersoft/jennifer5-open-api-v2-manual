@@ -1,0 +1,20 @@
+## Open API 명세 - RDB Export 대상 DB의 접속 암호 설정하기 (릴리즈 미정)
+
+RDB Export 대상 DB의 접속 암호를 설정합니다. RDB Export 기능은 제니퍼5 엔지니어 문서를 참고하여 숙지하시기 바랍니다.
+
+이 Open API는 뷰서버 conf 파일의 `rdb_export_jdbc_password` 옵션과 기능이 동일합니다. conf 파일과 달리, Open API를 이용하면 암호를 파일에 노출시키지 않고 설정할 수 있습니다.
+
+Open API 사용이 처음이라면 기본적인 사용법을 [README](/README.md)를 참고하여 숙지합니다.
+
+### 암호 설정하기
+
+- Method : PUT
+- URL : `http(s)://<호스트>:<포트>/api-v2/configuration/rdb-export-password-override`
+- Content-Type: text/plain
+- 요청 예제
+  - curl : `> curl --request PUT "https://java.jennifersoft.com/api-v2/configuration/rdb-export-password-override" -H "Authorization: Bearer ABCD1234" -d "XYZ1234"`
+* 응답 예제 : 
+  ```json
+  "Password: XYZ1234"
+  ```
+  * 조회 
