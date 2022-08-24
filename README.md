@@ -37,7 +37,8 @@ https://jennifersoft.github.io/jennifer-developer-guide
         - [ERROR EVENT 룰 적용 On/Off 제어](spec/manage-rule-event-error-applied.md)
         - [ERROR EVENT 대상별 설정 제어](spec/manage-rule-event-error-individual.md)
     - [액티브 서비스 경과시간 범위 조회하기](spec/active-service-color-range-boundary.md)
-- [수동 RDB Export](spec/manual-rdb-export.md)
+- RDB Export
+    - [지난 날짜의 RDB Export 작업 추가하기](spec/manual-rdb-export.md)
 - [소스코드(리소스) 변경이력 조회](spec/deploy.md)
 - [로디드 클래스 조회하기](spec/loaded-class.md)
 - [시스템 환경변수 조회하기](spec/environment-variable.md)
