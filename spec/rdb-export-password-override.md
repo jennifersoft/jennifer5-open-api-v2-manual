@@ -1,4 +1,4 @@
-## Open API 명세 - RDB Export 대상 DB의 접속 암호 설정하기 (릴리즈 미정)
+## Open API 명세 - RDB Export 대상 DB의 접속 암호 설정하기 (서버 5.6.1.2 이상)
 
 RDB Export 대상 DB의 접속 암호를 설정합니다. RDB Export 기능은 제니퍼5 엔지니어 문서를 참고하여 숙지하시기 바랍니다.
 
